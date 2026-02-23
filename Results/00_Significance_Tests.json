@@ -1,0 +1,62 @@
+{
+    "ResNet50_vs_InceptionV3": {
+        "statistic": 20.833333333333332,
+        "p_value": 5.0103319564343e-06,
+        "significant": true,
+        "interpretation": "Significant difference"
+    },
+    "ResNet50_vs_DenseNet121": {
+        "statistic": 15.612903225806452,
+        "p_value": 7.772240795322904e-05,
+        "significant": true,
+        "interpretation": "Significant difference"
+    },
+    "ResNet50_vs_EfficientNetB0": {
+        "statistic": 2.4390243902439024,
+        "p_value": 0.11834981273562839,
+        "significant": false,
+        "interpretation": "No significant difference"
+    },
+    "ResNet50_vs_VGG16": {
+        "statistic": 4.114285714285714,
+        "p_value": 0.042522477998051644,
+        "significant": true,
+        "interpretation": "Significant difference"
+    },
+    "InceptionV3_vs_DenseNet121": {
+        "statistic": 0.17391304347826086,
+        "p_value": 0.6766573217164242,
+        "significant": false,
+        "interpretation": "No significant difference"
+    },
+    "InceptionV3_vs_EfficientNetB0": {
+        "statistic": 28.8,
+        "p_value": 8.02511126440919e-08,
+        "significant": true,
+        "interpretation": "Significant difference"
+    },
+    "InceptionV3_vs_VGG16": {
+        "statistic": 6.857142857142857,
+        "p_value": 0.008828760952818593,
+        "significant": true,
+        "interpretation": "Significant difference"
+    },
+    "DenseNet121_vs_EfficientNetB0": {
+        "statistic": 21.78,
+        "p_value": 3.057709796472352e-06,
+        "significant": true,
+        "interpretation": "Significant difference"
+    },
+    "DenseNet121_vs_VGG16": {
+        "statistic": 3.1153846153846154,
+        "p_value": 0.07755616674366539,
+        "significant": false,
+        "interpretation": "No significant difference"
+    },
+    "EfficientNetB0_vs_VGG16": {
+        "statistic": 11.020833333333334,
+        "p_value": 0.000900935596360064,
+        "significant": true,
+        "interpretation": "Significant difference"
+    }
+}

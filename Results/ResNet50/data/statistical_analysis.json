@@ -1,0 +1,151 @@
+{
+  "overall_metrics_with_ci": {
+    "accuracy": {
+      "point_estimate": 0.9464052287581699,
+      "ci_lower": 0.9294117647058824,
+      "ci_upper": 0.9620915032679739,
+      "std_error": 0.008360404574305978,
+      "confidence_level": 0.95
+    },
+    "precision": {
+      "point_estimate": 0.9471236923329945,
+      "ci_lower": 0.9321340163511601,
+      "ci_upper": 0.9612777898070465,
+      "std_error": 0.007474461328002054,
+      "confidence_level": 0.95
+    },
+    "recall": {
+      "point_estimate": 0.9464052287581699,
+      "ci_lower": 0.9294117647058824,
+      "ci_upper": 0.9620915032679739,
+      "std_error": 0.008216685168657468,
+      "confidence_level": 0.95
+    },
+    "f1": {
+      "point_estimate": 0.9464689910992317,
+      "ci_lower": 0.9297909422481423,
+      "ci_upper": 0.9621517361368597,
+      "std_error": 0.008161367311180416,
+      "confidence_level": 0.95
+    }
+  },
+  "per_class_metrics_with_ci": {
+    "Alternaria": {
+      "precision": {
+        "point_estimate": 0.952755905511811,
+        "ci_lower": 0.9147286821705426,
+        "ci_upper": 0.9851958433253397,
+        "std_error": 0.019027970349353555,
+        "confidence_level": 0.95
+      },
+      "recall": {
+        "point_estimate": 0.9097744360902256,
+        "ci_lower": 0.8601398601398601,
+        "ci_upper": 0.9590247234439557,
+        "std_error": 0.025500714367977906,
+        "confidence_level": 0.95
+      },
+      "f1": {
+        "point_estimate": 0.9307692307692308,
+        "ci_lower": 0.8959849372384937,
+        "ci_upper": 0.9615384615384616,
+        "std_error": 0.01627648264680296,
+        "confidence_level": 0.95
+      }
+    },
+    "Anthracnose": {
+      "precision": {
+        "point_estimate": 0.9120879120879121,
+        "ci_lower": 0.8685676691729323,
+        "ci_upper": 0.9487244897959183,
+        "std_error": 0.021263739599757563,
+        "confidence_level": 0.95
+      },
+      "recall": {
+        "point_estimate": 0.9485714285714286,
+        "ci_lower": 0.9124816176470588,
+        "ci_upper": 0.9783812845103168,
+        "std_error": 0.01704480634225101,
+        "confidence_level": 0.95
+      },
+      "f1": {
+        "point_estimate": 0.9299719887955182,
+        "ci_lower": 0.898088733308768,
+        "ci_upper": 0.9542887537993922,
+        "std_error": 0.014128451797035244,
+        "confidence_level": 0.95
+      }
+    },
+    "Bacterial_Blight": {
+      "precision": {
+        "point_estimate": 0.9271523178807947,
+        "ci_lower": 0.8823335913312693,
+        "ci_upper": 0.9668982383240272,
+        "std_error": 0.02100006341774777,
+        "confidence_level": 0.95
+      },
+      "recall": {
+        "point_estimate": 0.9655172413793104,
+        "ci_lower": 0.9319611406206318,
+        "ci_upper": 0.99280704008222,
+        "std_error": 0.01519359098775165,
+        "confidence_level": 0.95
+      },
+      "f1": {
+        "point_estimate": 0.9459459459459459,
+        "ci_lower": 0.9182241953385127,
+        "ci_upper": 0.9702988632196553,
+        "std_error": 0.013178144680707223,
+        "confidence_level": 0.95
+      }
+    },
+    "Cercospora": {
+      "precision": {
+        "point_estimate": 0.9456521739130435,
+        "ci_lower": 0.8965405284370802,
+        "ci_upper": 0.9878048780487805,
+        "std_error": 0.023715227644466895,
+        "confidence_level": 0.95
+      },
+      "recall": {
+        "point_estimate": 0.9157894736842105,
+        "ci_lower": 0.8571428571428571,
+        "ci_upper": 0.9690721649484536,
+        "std_error": 0.028947510364591294,
+        "confidence_level": 0.95
+      },
+      "f1": {
+        "point_estimate": 0.93048128342246,
+        "ci_lower": 0.8888576779026217,
+        "ci_upper": 0.964824120603015,
+        "std_error": 0.01920870000882444,
+        "confidence_level": 0.95
+      }
+    },
+    "Healthy": {
+      "precision": {
+        "point_estimate": 0.9859154929577465,
+        "ci_lower": 0.9690265486725663,
+        "ci_upper": 1.0,
+        "std_error": 0.007802424487104813,
+        "confidence_level": 0.95
+      },
+      "recall": {
+        "point_estimate": 0.967741935483871,
+        "ci_lower": 0.9416615853658536,
+        "ci_upper": 0.9872470690403821,
+        "std_error": 0.012048925836797134,
+        "confidence_level": 0.95
+      },
+      "f1": {
+        "point_estimate": 0.9767441860465116,
+        "ci_lower": 0.9601873536299765,
+        "ci_upper": 0.9887145864509093,
+        "std_error": 0.0072467771726989335,
+        "confidence_level": 0.95
+      }
+    }
+  },
+  "n_bootstrap": 1000,
+  "confidence_level": 0.95
+}
