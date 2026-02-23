@@ -1,0 +1,10 @@
+# Ignore model weight files and weight directories
+Results/**/weights/
+**/weights/
+*.pth
+*.pt
+*.ckpt
+
+# Common macOS and Python artifacts
+.DS_Store
+__pycache__/
